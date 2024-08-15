@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body style="background:url(assets/img/restaurant-background-ua09rq3u85yphzt4.jpg);">
+    <!--Login profile-->
+    <div class="head">
+        <span class="close-icon">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        
+        <div class="form-box">
+            <h2>Login</h2>
+            <!--Form Tags-->
+            <form action="login.php" method="post">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email"  name="email" style="text-transform: lowercase;" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" name="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox" name="remember"></label>Remember me
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn" >Login</button></a>
+                <div class="register">
+                    <label>Don't have a account...?</label>
+                    <a href="register.html" class="register-link">Register</a>
+                </div>
+            </form>
+        </div>
+           
+</body>
+</html>

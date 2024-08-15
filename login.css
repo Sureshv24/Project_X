@@ -1,0 +1,287 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body background and centering */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+/* Form container */
+.form-box {
+    
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 30px rgba(11, 11, 11, 0.5) ;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    opacity: 250%;
+}
+
+/* Form heading */
+.form-box h2 {
+    margin-bottom: 30px;
+    color:#adadad;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+
+/* Input fields and labels */
+.input-box {
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 16px;
+    color: #adadad;
+    border: none;
+    border-bottom: 2px solid #adadad;
+    outline: none;
+    background: transparent;
+    text-transform: none;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    color: #adadad;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    top: -5px;
+    color: #6A82FB;
+    font-size: 12px;
+}
+
+.input-box .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #adadad;
+}
+
+/* Remember me and forgot password link */
+.remember {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color:rgb(151, 143, 143);
+    font-size: 14px;
+}
+
+.remember input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Submit button */
+.btn {
+    width: 100%;
+    background: #6A82FB;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #FC5C7D;
+}
+
+/* Register link */
+.register {
+    margin-top: 20px;
+    font-size: 14px;
+    
+}
+
+.register a {
+    color: #6A82FB;
+    text-decoration: none;
+  
+}
+
+.register a:hover {
+    color: #FC5C7D;
+}
+
+/* Close icon */
+.close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+
+/* Icon colors */
+.icon {
+    font-size: 20px;
+    color: #adadad;
+}
+
+/*register style*/
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body background and centering */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+/* Form container */
+.form-box-registor {
+   
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    opacity: 250%;
+    
+}
+
+/* Form heading */
+.form-box-registor h2 {
+    margin-bottom: 30px;
+    color:#adadad;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Input fields and labels */
+.input-box {
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 16px;
+    color: #adadad;
+    border: none;
+    border-bottom: 2px solid #adadad;
+    outline: none;
+    background: transparent;
+    text-transform: none;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    color: #adadad;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    top: -5px;
+    color: #43C6AC;
+    font-size: 12px;
+}
+
+.input-box .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #adadad;
+    font-size: 20px;
+}
+
+/* Checkbox and terms */
+.remember {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #a29b9b;
+    font-size: 14px;
+}
+
+.remember input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Submit button */
+.btn {
+    width: 100%;
+    background: #43C6AC;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #F8FFAE;
+    color: #333;
+}
+
+/* Register link */
+.register {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(233, 222, 222);
+    
+}
+
+.register a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.register a:hover {
+    color: #F8FFAE;
+}
+
+/* Icon colors */
+.icon {
+    color: #adadad;
+}
